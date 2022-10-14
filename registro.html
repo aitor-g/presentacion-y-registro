@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Esta es la descripcion de mi pagina web"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/practica.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/resets.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/registro.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Registro</title>
+  </head>
+
+  <body>
+    <header>
+      <a class="logo" href="/practica.html"
+        ><img src="img/Logo.png" alt=""
+      /></a>
+      <nav>
+        <a id="ultimos" href=""><span>Ultimos articulos</span></a>
+        <a href=""><span>Popular</span></a>
+        <a href=""><span>Tecnologia</span></a>
+      </nav>
+      <div class="opciones">
+        <img id="search" src="./img/Search.png" alt="" />
+        <img id="user" src="./img/User.png" alt="" />
+        <!-- <div class="userMenu">
+                <a href="">Login</a>
+                <a href="">Registro</a>
+            </div> -->
+      </div>
+    </header>
+    <main>
+      <!-- SECCION DEL FORMULARIO -->
+      <section>
+        <h1>Formulario de Registro</h1>
+        <form action="">
+          <div class="field">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" id="" required autocomplete />
+          </div>
+          <div class="field">
+            <label for="">Apellidos</label>
+            <input type="text" name="apellidos" id="" required autocomplete />
+          </div>
+          <div class="field">
+            <label for="">Estado Laboral</label>
+            <select name="" id="">
+              <option selected disabled value="">Seleccione un valor</option>
+              <option value="">Desempleado</option>
+              <option value="">Trabajando</option>
+              <option value="">Trabajando por cuenta ajena</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="">Email</label>
+            <input type="email" name="email" id="" required autocomplete />
+          </div>
+          <div class="field">
+            <label for="">Contrasena</label>
+            <input
+              type="password"
+              name="password"
+              id=""
+              required
+              autocomplete
+            />
+          </div>
+          <div class="field">
+            <label for="">Telefono</label>
+            <input
+              type="number"
+              name="telefono"
+              id="telefono"
+              required
+              autocomplete
+            />
+          </div>
+          <div class="textbox">
+            <label for="">Otros datos</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="gustos">
+            <label for=""
+              >?Quiere recibir informacion relacionada con sus gustos?</label
+            >
+            <div>
+              <input type="radio" name="gustos" id="" required autocomplete />Si
+            </div>
+            <div>
+              <input type="radio" name="gustos" id="" required autocomplete />No
+            </div>
+          </div>
+          <div class="privacidad">
+            <input type="checkbox" name="" id="" required />
+            <label for="">He leido y acepto la politica de privacidad</label>
+          </div>
+          <div class="submit">
+            <button>ENVIAR</button>
+          </div>
+        </form>
+      </section>
+      <!-- SECCION DE LA TABLA COMPARATIVA -->
+      <section class="sctVentajas">
+        <h2>Ventajas de estar registrado</h2>
+        <div class="cntTable">
+          <table cellspacing="0">
+            <tr>
+              <th></th>
+              <th>Registrado</th>
+              <th>No Registrado</th>
+            </tr>
+            <tr>
+              <td align="center">Comentar</td>
+              <td align="center"><img src="./img/tick.png" alt="" /></td>
+              <td align="center"><img src="./img/tick.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td align="center">Recomendaciones</td>
+              <td align="center"><img src="./img/tick.png" alt="" /></td>
+              <td align="center"><img src="./img/cross.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td align="center">Ayuda Personal</td>
+              <td align="center"><img src="./img/tick.png" alt="" /></td>
+              <td align="center"><img src="./img/cross.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td align="center">Sorteos</td>
+              <td align="center"><img src="./img/tick.png" alt="" /></td>
+              <td align="center"><img src="./img/cross.png" alt="" /></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+
+    height: 4rem;
+    padding: 0 5rem;
+
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    padding: 0 1rem;
+
+    color: #474747;
+}
+
+.ultimos {
+    font-weight: 700;
+
+    color: black;
+}
+
+.opciones {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 7rem;
+}
+
+.opciones img {
+    height: 1.75rem;
+}
+
+#search {
+    height: 1.75rem;
+}
+
+#user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#user:hover .userMenu {
+    max-height: 6rem;
+}
+
+.userMenu {
+    position: absolute;
+    top: 4rem;
+    right: -0.5rem;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    max-height: 0;
+
+    transition: max-height ease 0.5s 0.1s;
+
+    background-color: lightblue;
+}
+
+.userMenu a {
+    padding: 0.75rem 2rem;
+}
+
+/* MAIN */
+
+/*** BANNER ***/
+.sctBanner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 3rem 0;
+
+    background-image: url("../img/BackgroundBanner.png");
+}
+
+.banner {
+    height: 15rem;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+
+    color: white;
+}
+
+.escritor {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    border-radius: 50%;
+    background-color: white;
+}
+
+.avatar img {
+    height: 1.25rem;
+}
+
+.descripcion {
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+
+    color: white;
+    text-align: center;
+}
+
+/*** ARTICULO ***/
+
+.info {
+    padding: 3rem 0;
+}
+
+.divVideo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tituloVideo {
+    font-weight: 600;
+
+    padding-bottom: 3rem;
+
+    text-transform: uppercase;
+
+    color: rgb(58, 58, 58);
+}
+
+.videoCurso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoCurso iframe {
+    height: 20rem;
+
+    border-radius: 10px;
+}
+
+.indiceVideo {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 3rem;
+    padding: 2.75rem 2.25rem;
+
+    border-radius: 20px;
+    background-color: #f2f3ff;
+}
+
+#tituloAtajos {
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    margin-bottom: 0.75rem;
+}
+
+ol {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+li {
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
